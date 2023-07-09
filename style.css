@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'lato';
+    box-sizing: border-box;
+}
+body{
+    background:black;
+    color: #fff;
+}
+#header{
+   
+    width:70%;
+    height: 100vh;
+    left: 30%;
+    background-image: url("My\ project-1\ \(3\)-removebg-preview\ \(1\).jpg");
+    background-size: cover;
+    background-position: left;
+   
+ 
+    padding-right: 30%;
+   
+}
+.header:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+.container{
+    padding: 10px 10%;
+    width: 190%;
+}
+nav{
+    width: 70%;
+    overflow: auto;
+    text-align: center;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    padding: 0px 20px;
+    list-style: NONE;
+    text-align: center;
+
+}
+
+li{
+    float: left;
+    text-align: center;
+    display: inline;
+}
+nav a{
+    display: block;
+    width: 100%;
+    padding: 20px 16px;
+    font-family: lato;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+nav a:hover{
+    background-color: white;
+    color:black ;
+    border-radius: 30px;
+    transition: 0.3s;
+
+}
+.CON{
+   WIDTH: 100%;
+    margin-left: 700PX;
+    margin-top: 100PX;
+    margin-right:800PX;
+
+}
+.ab{
+    margin-left: 6%;
+    margin-top: 1%;
+}
+table{
+    margin-left: 6%;
+    margin-top: 3%;
+    font-size: 250%;
+}
+.app{
+    display: flex;
+    padding: 10px 20px ;
+    margin: 0px 1000px;
+    margin-top: -3px;
+    width: 100%;
+}
+.app1:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.app2:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.app3:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+  .project-details {
+    display: none;
+  }
+
+  .project-details:target {
+    display: block;
+  }
